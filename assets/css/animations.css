@@ -1,5 +1,17 @@
 #hero h1 {
-  colour: aqua;
+  animation-name: showIt;
+  animation-duration: 15s;
+  colour: beige;
 }
+
 @keyframes showIt {
+  0% {
+    capacity: 0;
+  }
+  50% {
+    capacity: 1;
+  }
+  100% {
+    capacity: 1;
+  }
 }
